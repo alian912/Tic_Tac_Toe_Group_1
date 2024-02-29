@@ -40,7 +40,7 @@ public class TICTACTOE
 
     public static boolean freeSpace(int position){
         boolean result = false;
-        int x = (position%3 ), y = t;
+        int x = (position-1)%3 , y = (position-1)/3;
         return result;
     }
 }
