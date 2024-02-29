@@ -1,5 +1,8 @@
 import java.io.*;
 import java.util.*;
+import java.awt.*;
+import java.awt.event.*;
+import javax.swing.*;
 import javax.swing.text.Position;
 public class TICTACTOE 
 {
@@ -9,6 +12,7 @@ public class TICTACTOE
     private int position;
     public static void main(String[] args) 
     {
+        Board board1 = new Board();
         for(int i = 0; i < board.length; i++)
         {
             for(int j = 0; j < board[i].length; j++)
